@@ -1,14 +1,3 @@
-let Titulo = document.title;
-
-window.addEventListener('blur', () => {
-    Titulo = document.title;
-    document.title = "No te vallas, regresa :(";
-})
-
-window.addEventListener('focus', () => {
-    document.title = Titulo;
-})
-
 let h1 = document.getElementById("Titulo");
 let Boton1 = document.getElementById("B1");
 Boton1.addEventListener('click', function() {
