@@ -6,4 +6,8 @@ document.getElementById("BotonCerrar").addEventListener('click', function() {
     document.getElementById("resultado").style.display = "none";
     document.querySelector(".Contenedor-Binicio").style.display = "none";
     document.querySelector(".Con-2").style.display = "block";
+
+    const audio = new Audio('./public/flores-amarillas.mp3');
+    audio.volume = 0.35;
+    audio.play();
 })
